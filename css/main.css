@@ -149,8 +149,8 @@ header nav ul li a{
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	border-left: none;
+	border-right: none;
 }
 
 .section-two h3,
