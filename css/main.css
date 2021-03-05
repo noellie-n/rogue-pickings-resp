@@ -1,10 +1,16 @@
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .container{
 	max-width: 1200px;
 	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 h1,
@@ -34,6 +40,9 @@ p {
 header {
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 header h1 {
@@ -67,6 +76,9 @@ header nav ul li a{
 .top-section,
 .bottom-section {
 	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .main-image {
@@ -135,6 +147,9 @@ footer {
 	border-top: 3px solid #eee;
 	margin: 0 auto;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 footer span {
 	font-family: 'Galada', cursive;
