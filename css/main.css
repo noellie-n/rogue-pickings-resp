@@ -1,5 +1,10 @@
+html{
+	font-size: 16px;
+}
+
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1em;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -21,17 +26,17 @@ h3 {
 	font-weight: 700;
 }
 h1 {
-	font-size: 30px;
+	font-size: 1.875em;
 }
 h2 {
-	font-size: 18px;
+	font-size: 1.125em;
 }
 h3 {
-	font-size: 12px;
+	font-size: 0.75em;
 }
 
 p {
-	font-size: 14px;
+	font-size: 0.875em;
 	line-height: 21px;
     padding: 0 30px;
 }
@@ -63,7 +68,7 @@ header nav ul {
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: 0.875em;
 	padding: 0 10px;
 	display: inline;
 }
@@ -97,7 +102,7 @@ header nav ul li a{
 }
 .main-title p {
 	padding: 0;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 25px;
 }
 
@@ -133,12 +138,12 @@ header nav ul li a{
 
 .reviews {
 	color: #333;
-	font-size: 16px;
-	line-height: 21px;
+	font-size: 1em;
+	line-height: 12px;
 }
 
 .address {
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 24px;
 }
 
