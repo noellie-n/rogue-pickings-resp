@@ -155,11 +155,6 @@ header nav ul li a{
 	padding: 1.5em 0 0 0;
 }
 
-.section-two {
-	border-left: none;
-	border-right: none;
-}
-
 .menu {
 	list-style: none;
 	padding: 0;
@@ -196,4 +191,35 @@ footer span {
 	color: #77a466;
 	font-size: 0.875em;
 	padding: 0 0.5em;
+}
+
+/*---------------------------------*/
+		/*  MEDIA QUERIES  */
+/*---------------------------------*/
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+	.bottom-section {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-flow: row nowrap;
+		border-top: 1px solid #eee;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+		padding: 0 1em;
+		border-top: none;
+	}
+
+	.section-two{
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+ 
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+ 
 }
