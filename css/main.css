@@ -13,7 +13,6 @@ body {
 .container{
 	max-width: 1200px;
 	width: 90%;
-	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -49,20 +48,23 @@ h3 {
 p {
 	font-size: 0.875em;
 	line-height: 1.3125em;
-    padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+ul {
+	margin: 0;
+}
 /*-----Header-----*/
 header {
-	width: 90%;
+	width: 100%;
 	margin: 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	text-align: center;
 }
 
 header h1 {
@@ -78,6 +80,7 @@ header h1 span {
 
 header nav {
 	padding: 1em 0;
+	width: 100%;
 }
 header nav ul {
 	margin: 0;
@@ -226,6 +229,7 @@ footer span {
     /* Desktop styles here */
 	header {
 		justify-content: space-between;
+		padding: 1.5em 0 0 0;
 	}
 	header h1 {
 		width: 30%;
