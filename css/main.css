@@ -205,21 +205,39 @@ footer span {
 		flex-flow: row nowrap;
 		border-top: 1px solid #eee;
 	}
-
 	.section-one,
 	.section-two,
 	.section-three {
 		width: 33%;
-		padding: 0 1em;
 		border-top: none;
 	}
-
-	.section-two{
+	.section-two {
 		border-left: 1px solid #eee;
 		border-right: 1px solid #eee;
+		padding: 0 1.25em;
 	}
- 
+	.section-three {
+		padding: 0 1.25em;
+	}
+}
+
 @media all and (min-width:1200px) {
     /* Desktop styles here */
- 
+	header {
+		justify-content: space-between;
+	}
+	header h1 {
+		width: 30%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+	}
+	header nav {
+		width: 40%;
+	}
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
 }
